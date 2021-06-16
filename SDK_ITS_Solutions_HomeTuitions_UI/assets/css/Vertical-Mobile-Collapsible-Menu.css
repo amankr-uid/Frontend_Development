@@ -1,0 +1,12 @@
+@media (min-width:767px) {
+  .navbar-side ul, .navbar-side li {
+    float:none;
+  }
+}
+
+@media (min-width:767px) {
+  .navbar-side .container-fluid, .navbar-side .navbar-collapse {
+    padding:0;
+  }
+}
+

@@ -1,0 +1,387 @@
+/*for index online class*/
+.star{
+	background: linear-gradient(132deg, #ec5218, #1665c1);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 15s ease infinite;
+
+}
+@keyframes BackgroundGradient {
+	0%{background-position: 0% 50%;}
+	50%{background-position: 100% 50%;}
+	100%{background-position: 0% 50%;}
+
+}
+
+.star1
+{
+	background-color: rgba(0, 0, 0, 255, .1);hh
+  /**/
+}
+
+
+
+/*for index popular program*/
+
+.sonu2{
+	text-align: center;
+    color: white;
+
+   /* border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;*/
+
+	/*height: 55px;*/
+   /* background-color: red; /* For browsers that do not support gradients */
+    /*background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);*/
+	background-color: rgba(0, 0, 255, 0.5);
+}
+
+.sonu{
+	    font-size: 32px;
+    color: white;
+    columns: #FFF;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 700;
+    
+
+}
+
+.sonu1 {
+    font-size: 20px;
+    /*color: #4b4e61;*/
+    columns: #fff;
+    font-family: 'Roboto';
+    font-weight: normal;
+    padding-bottom: 25px;
+    
+}
+
+@media screen and (max-width: 990px)
+.sonu1 {
+    padding-bottom: 10px;
+}
+
+
+
+
+/*for payment blinking text*/
+
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+
+
+/*=================
+    FOR TABLE 
+==================*/
+
+.ourteam{
+        width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+      }
+
+/*=================
+    END TABLE 
+==================*/
+
+
+
+
+/*=================
+    OUR_FRANCHIESE
+==================*/
+
+/* CSS for responsive iframe */
+/* ========================= */
+
+/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
+#Iframe-Master-CC-and-Rs {
+  max-width: 512px;
+  max-height: 100%; 
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+  
+  /* put following styles (necessary for overflow and scrolling handling on mobile devices) inline in .responsive-wrapper around iframe because not stable in CSS:
+    -webkit-overflow-scrolling: touch; overflow: auto; */
+  
+}
+ 
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as % -- sets aspect ratio */
+/* YouTube video aspect ratio */
+.responsive-wrapper-wxh-572x612 {
+  padding-bottom: 107%;
+}
+
+/* general styles */
+/* ============== */
+.set-border {
+  border: 5px inset #4f4f4f;
+}
+.set-box-shadow { 
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+  -moz-box-shadow: 4px 4px 14px #4f4f4f;
+  box-shadow: 4px 4px 14px #4f4f4f;
+}
+.set-padding {
+  padding: 40px;
+}
+.set-margin {
+  margin: 30px;
+}
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*=================
+OUR_FRANCHIESE END
+==================*/
+
+
+/*=================
+popup form
+==================*/
+.styled-input {
+    border-bottom: 1px solid #f43434;
+    background: rgba(8, 8, 8, 0.22);
+    margin-bottom: 18px;
+    padding: 14px;
+}
+
+.center1{
+  margin-top: 12%;
+  align-items: center;
+}
+
+
+/*=================
+Pop up form
+==================*/
+
+
+/*=================
+Nav Bar
+==================*/
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+      display: block;
+      background-color:   rgb(248,248,248);
+  }
+  .dropdown-submenu {
+      position:relative;
+
+  }
+  .dropdown-submenu>.dropdown-menu {
+      top:0;
+      left:100%;
+      margin-top:-6px;
+  }
+
+  /* rotate caret on hover */
+   .dropdown-menu > li > a:hover:after {
+      text-decoration: underline;
+      transform: rotate(-90deg);
+  } 
+
+
+/*=================
+Nav Bar End
+==================*/
+
+
+
+/*=================
+Side Bar image Enquiry
+==================*/
+
+
+ .enquiry{
+
+      left: auto;
+        right: 0;
+        float: right;
+        position: fixed;
+        bottom: 50%;
+    }
+
+    img {
+      background-attachment: fixed;
+      vertical-align: middle;
+      max-width: 100%;
+    }
+
+    @media (max-width:640px){
+    .enquiry img:first-child{
+        display:none;
+    }
+}
+
+
+
+
+/*=================
+Responsive Image for pages
+==================*/
+
+
+ .responsive {
+    width: 100%;
+ 	height: fit-content;
+    border:2px solid #fff;
+
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    border-radius:25px;
+}
+
+
+/*
+ ===============
+ Team saction
+ ===============
+*/
+
+.team{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /*background-color: hsl(0, 0%, 95%);*/
+  width: 100%;
+  text-align: center;
+
+}
+
+.team-wrapper{
+  width: 90%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+.col-team{
+  width: 50%;
+  float: left;
+  padding: 10px 30px 10px 30px;
+}
+
+.col-team img{
+  width: 80px;
+  max-width: 100%;
+  border: 1px solid black;
+  padding-bottom: 5px;
+}
+
+.col{
+  /*max-width: 200px;
+  max-height: 170px;*/
+  border: 2px solid rgba(0,0,0,0.05); 
+  box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.05);
+  padding: 10px;
+}
+
+.team-wrapper::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/*
+ ===============
+ Navseth section
+ ===============
+*/
+.navseth{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to bottom right, #2196F3, #009688);
+  /*display: flex;*/
+  text-align: right;
+  align-items: right;
+  justify-content: right;
+  color: #fff;
+
+}
+.align1{
+padding-right: 140px;
+font-size: 15px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .align1 {
+    display: none;
+  }
+}
+
+/*
+ ==================
+ Police Bottom Page
+ ==================
+*/
+.police
+{
+  display: inline;
+  text-align: center;
+  justify-content: center;
+    /*flex-direction: center;*/
+ 
+}
+.sethmargin
+{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .sethmargin{
+    font-size: 5px;
+    display: block;
+
+ /* }
+@media only screen and (max-width: 600px) {
+  .police{
+    font-size: 5px;
+  }*/
