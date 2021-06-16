@@ -1,0 +1,22 @@
+.icon-feature {
+  text-align:center;
+}
+
+.icon-feature .glyphicon {
+  font-size:60px;
+}
+
+section.features {
+  background-color:#369;
+  padding:40px 0;
+  color:#fff;
+}
+
+.features h2 {
+  color:#fff;
+}
+
+.features .icon-features {
+  margin-top:15px;
+}
+
