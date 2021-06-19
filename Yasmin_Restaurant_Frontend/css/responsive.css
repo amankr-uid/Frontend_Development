@@ -1,0 +1,361 @@
+/* =====================================
+    MEDIA QUERIES.
+===================================== */
+@media (max-width:1400px) {
+    .slider-caption {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 95%;
+    }
+
+    .feature-right-content {
+        width: 90%;
+        padding-left: 8rem;
+    }
+
+}
+
+@media (max-width:991px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    h6 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .slider-caption .title {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 20x;
+    }
+
+    .hero-slider .flickity-prev-next-button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .grid-sizer,
+    .grid-box {
+        width: 49%;
+    }
+
+    .md-view {
+        margin-top: 30px;
+    }
+
+    .about-testimonials {
+        margin: 0px;
+        position: relative;
+        top: 0%;
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        padding-right: 0rem;
+        width: 80%;
+    }
+
+    .center-title {
+        width: 70%;
+    }
+
+    .cta-left-content {
+        padding: 0px 15px;
+    }
+
+    .cta-left-content h3 {
+        text-align: center;
+    }
+
+    .cta-left-content p {
+        text-align: center;
+    }
+
+    .cta-right-content {
+        float: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .wide-cta-banner {
+        margin-top: -50px;
+        padding: 100px 0px 100px 0px;
+        background-color: var(--primary-color);
+        height: 100%;
+    }
+
+    .ws-feature-left {
+        height: 500px;
+    }
+
+    .ws-feature-right {
+        height: auto;
+        margin: 0px;
+    }
+
+    .feature-right-content {
+        margin: 0;
+        position: relative;
+        top: 0%;
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        width: 100%;
+        padding: 25px;
+    }
+
+    .layer-box {
+        padding: 15px;
+        margin: 10px 0px;
+    }
+
+    .layer-box .media .mr-3 {
+        width: 50px;
+    }
+
+    .menu-left .d-flex {
+        display: block !important;
+    }
+
+
+    .menu-right .d-flex {
+        display: block !important;
+    }
+
+    .md-img:after {
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        height: 200px;
+        width: 200px;
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .btn-popup {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .cta-right-content .btn-outline{
+        margin-top: 30px;
+    }
+
+    .about-jalao {
+        padding-right: 0px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .top-header-wrapper {
+        display: none;
+    }
+
+    .slider-caption .title {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 15x;
+    }
+
+    .pages-hero {
+        height: 500px;
+    }
+
+    .pages-title {
+        top: 55%;
+    }
+
+    .error-page-content {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        transform: translate(0%, 0%);
+        text-align: center;
+        color: #FFF;
+        padding: 0rem 5rem;
+    }
+
+    .about-testimonials {
+        width: 90%;
+    }
+
+    .center-title {
+        width: 70%;
+    }
+
+    .menu-left {
+        padding-right: 0px;
+    }
+
+    .menu-right {
+        padding-left: 15px;
+    }
+
+    .restaurant-welcome{
+        width: 80%;
+    }
+
+}
+
+@media (max-width:576px) {
+    .pages-title {
+        top: 45%;
+        left: 0%;
+        right: 0%;
+        transform: translate(0%, 0%);
+        padding: 0px 30px;
+    }
+
+    .error-page-content {
+        position: absolute;
+        padding: 0rem 3rem;
+    }
+
+    .error-page-content h1 {
+        font-size: 6rem;
+    }
+
+    .grid-sizer,
+    .grid-box {
+        width: 100%;
+    }
+
+    .grid-two-col .grid-sizer,
+    .grid-two-col .grid-box {
+        width: 100%;
+    }
+
+    .grid-four-col .grid-sizer,
+    .grid-four-col .grid-box {
+        width: 100%;
+    }
+
+    .sm-view {
+        margin-top: 30px;
+    }
+
+    .center-title {
+        width: 90%;
+    }
+
+    .footer-logo {
+        width: 120px;
+    }
+
+    ul.footer-social li {
+        margin: 0px 10px;
+        font-size: 17px;
+    }
+
+    .restaurant-welcome{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:480px) {
+    .hero-slider .flickity-prev-next-button {
+        display: none;
+    }
+
+    .slider-caption .title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .slider-caption {
+        padding: 0px 15px;
+    }
+
+    .comment-box .media {
+        display: block !important;
+    }
+
+    .about-testimonials {
+        width: 100%;
+    }
+
+    .about-jalao .d-flex {
+        display: block !important;
+    }
+
+    .home-about-box .d-flex {
+        display: block !important;
+    }
+
+    .home-about-box{
+        background-color: #FFF;
+        padding: 0px;
+    }
+
+    .bl-contact {
+        padding: 18px 0px 18px 0px;
+        border-left: none;
+    }
+
+    .layer-box {
+        padding: 0px;
+        margin: 30px 0px;
+    }
+
+    .layer-box .media .media-body h3 {
+        font-size: 20px;
+    }
+
+    .right-corner-message {
+        width: 100%;
+    }
+    
+    .contact-bg {
+        height: 740px;
+    }
+
+    .restaurant-welcome{
+        width: 95%;
+    }
+
+}
+
+@media (max-width:380px) {
+    .layer-box .media{
+        display: block !important;
+    }
+
+    .layer-box .media .mr-3{
+        margin-bottom: 10px;
+    }
+}
